@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo.png" type="image/png">
+	<title>Portfolio</title>
+    <link rel="stylesheet" href="projectstyle.css">
+    <script src="https://kit.fontawesome.com/9405e4171f.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#portfolio">Portfolio</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <!-- <li><a href="#services">Services</a></li> -->
+                    <!-- <li><a href="#contact">Contact</a></li> -->
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <!-- <p>UX Designer</p> -->
+                <h3>UX Research & Experience Design <br> to Optimize the Warehouse <br> Management Application</h3>
+            </div>
+            <style>
+                #header{
+                    width: 100%;
+                    height: 100vh;
+                    background-image: url(images/warehouseheropage.png);
+                    background-size: cover;
+                    background-position: center;
+                }
+                @media only screen and (max-width: 600px){
+                    #header{
+                       background-size: 150%;
+                       background-repeat: no-repeat;
+                    }
+                }
+            </style>
+        </div>
+    </div>
+
+    <!-- -----overview----- -->
+    <div id="portfolio">
+        <div class="container">
+            <div class="content-section">
+                <div class="sectiontitle-col-1">
+                    <h6>OVERVIEW</h6>
+                </div>
+                <div class="content-col-2">
+                    <p class="title">Challenges of handling increased demand in flooring business amidst booming real estate market.</p>
+                    <p>RMI is an interior design company that specializing in the flooring business. We provide materials and installation services to our customers across different markets and have multiple warehouses throughout the United States.
+                    <br>
+                    The hot real estate market has led to a rapid increase in jobs in the flooring business, and our warehouses are handling more than double the volume of work they did before the increase of demand. However, our warehouse operation team has struggled to maintain their usual level of efficiency.</p>
+                    <br>
+                    <br>
+                    <p class="title">Rebuild warehouse management application to boost efficiency and reduce labor costs</p>
+                    <p>Redesigned the warehouse management application to improve warehouse efficiency, allowing warehouse staff to manageincreasing workloads without additional personnel.</p>
+                </div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+	<div id="portfolio">
+        <div class="container">
+            <div class="content-section">
+                <div class="sectiontitle-col-1">
+                    <h6>RESEARCH</h6>
+                </div>
+                <div class="content-col-2">
+                    <p class="title">Insufficient information and functionality in the old warehouse management system results in inefficiency</p>
+					<p class="small-title">Contextual Inquiry</p>
+                    <p>Conducted contextual inquiry research to understand how the old warehouse management system assisted users and observed the warehouse staffs’ working processes and daily tasks they needed to handle through the application.</p>
+                    <p class="small-title">Warehouse Operation Managers Working Process:</p>
+                    <img class="img-placed" src="images/warehouseworkflow.png" alt="" />
+                    <p class="small-title">Warehouse Operation Managers Journey Map:</p>
+                    <img class="img-placed" src="images/customerJourneyMap.png" alt="" />
+                    <p class="small-title">User Interview</p>
+                    <p>Interviewed 25 target users to gain insight into the management of warehouses and the collaboration between warehouse operations managers and account managers. Also, gathered users’ feedback about their experience with the old warehouse management system.</p>
+                    <img class="img-placed" src="images/samplequestions.png" alt="" />
+                    <br>
+                    <br>
+                    <p class="title">Insights</p>
+                    <p>
+						<ul>
+                            <li class="bulletpoint">
+								<p>Users needed to switch between multiple applications to get work done.</p>
+							</li>
+                            <li class="bulletpoint">
+								<p>The process of assigning installers was tedious; a simple change requires several steps to complete.</p>
+							</li>
+                            <li class="bulletpoint">
+								<p>Too much information on the calendar view made it difficult for the user to target information.</p>
+							</li>
+                            <li class="bulletpoint">
+								<p>There is no view for account managers to overview warehouses’ performance and workload.</p>
+							</li>
+
+
+							<!-- <li class="bulletpoint">
+								<p style="color:#0466C8;"><strong>Users needed to switch between multiple applications to get work done.</strong></p>
+							</li> -->
+
+
+						</ul>
+					</p>
+                </div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Design section -->
+	<div id="portfolio">
+        <div class="container">
+            <div class="content-section">
+                <div class="sectiontitle-col-1">
+                    <h6>DESIGN</h6>
+                </div>
+                <div class="content-col-2">
+                    <p class="title">Core Design Improvement</p>
+                </div>
+                <div></div>
+            </div>
+            <div class="content-section">
+                <div class="sectiontitle-col-1">
+                    <h6></h6>
+                </div>
+                <div class="content-col-2">
+                    <img class="title-image-p2" src="images/information.png" alt="Image description">
+                    <span class="title">Provide essential information to assist in decisions making</span>
+                </div>
+                <div></div>
+            </div>
+
+            <div class="content-section-image-p2">
+                <div></div>
+                <div class="portfolio-image-p2">
+                    <img src="images/informationBefore.png">
+                </div>
+                <div class="portfolio-content-p2">
+                    <div class="info">
+                        <p class="title">Before.</p>
+                        <p>
+                            <ul>
+                                <li class="bulletpoint-2">Hard for users to locate the relevant information because of the layout structure.</li>
+                                <li class="bulletpoint-2">Users couldn’t get all the information they needed on the page, so they had to switch to other applications.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="content-section-image-p2">
+                <div></div>
+                <div class="portfolio-image-p2">
+                    <img src="images/informationAfter.png">
+                </div>
+                <div class="portfolio-content-p2">
+                    <div class="info">
+                        <p class="title">After.</p>
+                        <p>
+                            <ul>
+                                <li class="bulletpoint-2">Provide key indicators to warehouse staff for selecting installers for the job: 
+                                Job Location / Job Type / Job Materials / Job Size / Order Type</li>
+                                <li class="bulletpoint-2">Include hyperlinks for convenient access to relevant sites or pages</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="content-section">
+                <div class="sectiontitle-col-1">
+                    <h6></h6>
+                </div>
+                <div class="content-col-2">
+                    <img class="title-image-p2" src="images/process.png" alt="Image description">
+                    <span class="title">Offer an easy and simple process for managing suppliers</span>
+                </div>
+                <div></div>
+            </div>
+            
+            <div class="content-section-image-p2">
+                <div></div>
+                <div class="portfolio-image-p2">
+                    <img src="images/processBefore.png">
+                </div>
+                <div class="portfolio-content-p2">
+                    <div class="info">
+                        <p class="title">Before.</p>
+                        <p>
+                            <ul>
+                                <li class="bulletpoint-2">Warehouse staff had to assign suppliers to each job and record them in our internal system</li>
+                                <li class="bulletpoint-2">Required several tedious and time-consuming</li>
+                                <li class="bulletpoint-2">Installer information would just recorded on a paper</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="content-section-image-p2">
+                <div></div>
+                <div class="portfolio-image-p2">
+                    <img src="images/processAfter.png">
+                </div>
+                <div class="portfolio-content-p2">
+                    <div class="info">
+                        <p class="title">After.</p>
+                        <p>
+                            <ul>
+                                <li class="bulletpoint-2">Directly assign suppliers and installers within the warehouse management system</li>
+                                <li class="bulletpoint-2">Add a place to record installer information in the system</li>
+                                <li class="bulletpoint-2">Simplify the steps for assigning and recording the suppliers and installers by using the dropdown selection</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="content-section">
+                <div class="sectiontitle-col-1">
+                    <h6></h6>
+                </div>
+                <div class="content-col-2">
+                    <img class="title-image-p2" src="images/research.png" alt="Image description">
+                    <span class="title">Get an overview of warehouses’ workload</span>
+                </div>
+                <div></div>
+            </div>
+            
+            <div class="content-section-image-p2">
+                <div></div>
+                <div class="portfolio-image-p2">
+                    <img src="images/monthweekBefore.png">
+                </div>
+                <div class="portfolio-content-p2">
+                    <div class="info">
+                        <p class="title">Before.</p>
+                        <p>
+                            <ul>
+                                <li class="bulletpoint-2">The monthly and weekly page views were the same as the daily view</li>
+                                <li class="bulletpoint-2">Much more crowded with all the detailed information including</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="content-section-image-p2">
+                <div></div>
+                <div class="portfolio-image-p2">
+                    <img src="images/monthweekAfter.png">
+                </div>
+                <div class="portfolio-content-p2">
+                    <div class="info">
+                        <p class="title">After.</p>
+                        <p>
+                            <ul>
+                                <li class="bulletpoint-2">Listed all the jobs on the monthly view without details, so it will serve as a place for staff to overview warehouses' performance and their workloads</li>
+                                <li class="bulletpoint-2">Added job summary for each day in the monthly view so staff can get an overview of the workload</li>
+                                <li class="bulletpoint-2">Added expanded view for each job so users can get more detailed information</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="content-section">
+                <div class="sectiontitle-col-1">
+                    <h6></h6>
+                </div>
+                <div class="content-col-2">
+                    <img class="title-image-p2" src="images/page.png" alt="Image description">
+                    <span class="title">Enhance user experience through interface improvements</span>
+                </div>
+                <div></div>
+            </div>
+            
+            <div class="content-section-image-p2">
+                <div></div>
+                <div class="portfolio-image-p2">
+                    <img src="images/filterBefore.png">
+                </div>
+                <div class="portfolio-content-p2">
+                    <div class="info">
+                        <p class="title">Before.</p>
+                        <p>
+                            <ul>
+                                <li class="bulletpoint-2">Only have three filters on the top</li>
+                                <li class="bulletpoint-2">The design of the filter is inconsistent</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="content-section-image-p2">
+                <div></div>
+                <div class="portfolio-image-p2">
+                    <img src="images/filterAfter.png">
+                </div>
+                <div class="portfolio-content-p2">
+                    <div class="info">
+                        <p class="title">After.</p>
+                        <p>
+                            <ul>
+                                <li class="bulletpoint-2">Provide more filter options to help them narrow down their job lists and manage the work more efficiently</li>
+                                <li class="bulletpoint-2">These filters are key indicators of their job search: Warehouse / Material / Work Order Status / Order Type / Supplier / Installer </li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+
+        
+	<div id="portfolio">
+        <div class="container">
+            <div class="content-section">
+                <div class="sectiontitle-col-1">
+                    <h6>USABILITY TESTING</h6>
+                </div>
+                <div class="content-col-2">
+                    <p class="title">Usability testing confirmed positive user feedback on the enhanced features and clearer interface of the updated warehouse management application, resulting in increased productivity and efficiency.</p>
+                    <p class="small-title">Participants</p>
+                    <p>10 target users were recruited to test our redesigned version of the app. Half of the usability testing was conducted remotely because users were located in different warehouses across the State.</p>
+                    <p class="small-title">Usability Tasks</p>
+                    <p>Users were provided with a scenario related to their daily job and asked to utilize the real examples from their calendar to test the effectiveness of the new warehouse calendar in completing those tasks. The researcher observed users' behavior and conducted interviews, including follow-up questions, to understand their actions and gather feedback throughout the process.</p>
+                    <br>
+                    <p class="small-title" style="color:#0466C8">Outcomes</p>
+                    <ul>
+                        <li class="bulletpoint">Users feel that the new user interface of the content information is more legible, allowing them to easily skim through the job information on the calendar for their daily schedule.</li>
+                        <li class="bulletpoint">Overall, users are satisfied with the new version of the warehouse calendar, which provides them with more useful features to facilitate their work.</li>
+                        <li class="bulletpoint">The new color-coded system, indicating the job status, has been incredibly helpful for users in assigning installers and quickly reviewing all their jobs to identify any uncompleted tasks that require follow-up.</li>
+                        <li class="bulletpoint">The new features provides users with a quicker way to assign installers, which is very helpful for users and saves them a significant amounts of time in their daily jobs.</li>
+                    </ul>
+                </div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <div class="content-section">
+                <div class="sectiontitle-col-1">
+                    <h6>FUTURE ITERATIONS</h6>
+                    <!-- <h6>LESSONS LEARNED</h6> -->
+                </div>
+                <div class="content-col-2">
+                    <p class="title">Enhancing user familiarity and future onboarding with comprehensive documentation for the new warehouse management application</p>
+                    <p>After using the new warehouse management application for a couple of weeks, users are still not quite familiar with all its functions. They are still accustomed to performing their tasks in the old way. Therefore, it would be beneficial to provide users with documentation that explains how to utilize the application's features in various scenarios. Additionally, this documentation would be valuable for onboarding training purposes.</p>
+                </div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <div class="content-section">
+                <div class="sectiontitle-col-1">
+                    <h6>LESSONS</h6>
+                </div>
+                <div class="content-col-2">
+                    <p class="title">What did I learn?</p>
+                    <p>From this project, I discovered that having a standard process was very important for companies, especially since our company has multiple locations across the States. Those warehouses were previously third-party warehouses, each with its own process, leading to diverse requests for functions and need in the warehouse management system. However, standardized processes were vital for maintaining employee productivity and facilitating future onboarding. As a result, in this project, I started by interviewing all the warehouses about their experience and engaging in discussions with stakeholders to establish the processes and then designed the detail of the system.</p>
+                </div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio"></div>
+    
+    </body>
+
+    <!-- -----copyright----- -->
+    <div id="contact">
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> 2023 Wen</p>
+        </div>
+    </div>
+
+    <script src="projectscript.js"></script> 
+</html>
+
+
+
+
+
+
+
+	
+
+
